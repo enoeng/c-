@@ -1,22 +1,12 @@
-#define  _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+
 void main()
 {
-	int a, b, c, d;
-	int result;
+	printf("\n줄 바꿈\n연습 \n");
+	printf("\t탭키\t연습 \n");
+	printf("이것을\r덮어씁니다 \n");
+	printf("\a\a\a삐소리 3번 \n");
+	printf("글자가 \"강조\"되는 효과 \n");
+	printf("\\\\\\ 역슬래시 세 개 출력 \n");
 	
-	printf("첫 번째 계산할 값을 입력하세요 ==>");
-	scanf("%d", &a);
-
-	printf("두 번째 계산할 값을 입력하세요 ==>");
-	scanf("%d", &b);
-
-	printf("세 번째 계산할 값을 입력하세요 ==>");
-	scanf("%d", &c);
-
-	printf("네 번째 계산할 값을 입력하세요 ==>");
-	scanf("%d", &d);
-
-	result = a + b + c + d;
-	printf("%d + %d + %d + %d = %d", a, b, c, d, result);
 }
